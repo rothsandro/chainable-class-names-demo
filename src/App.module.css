@@ -1,0 +1,40 @@
+.App {
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+.AppHeader {
+  padding: 1rem;
+  border-bottom: 1px solid #333;
+}
+
+.AppTitle {
+  font-size: 2.5rem;
+  line-height: 1.4;
+}
+
+.AppContent {
+  height: 100%;
+  padding: 2rem;
+}
+
+.AppMain {
+  width: 100%;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+
+.AppText {
+  line-height: 1.5;
+}
+
+/* Utils */
+.center {
+  text-align: center;
+}
+
+.danger {
+  color: red;
+}
